@@ -216,6 +216,7 @@ h6 {
     color: #fff;
     margin-right: 28px;
     font-size: 17px;
+    cursor: pointer;
 }
 
 .main {
@@ -328,4 +329,5 @@ h1 {
     color: #211F54;
     margin-right: 28px;
     font-size: 17px;
+    cursor: pointer;
 }
