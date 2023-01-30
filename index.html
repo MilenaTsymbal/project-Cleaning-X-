@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- <script src="main.js"></script> -->
 </head>
 
 <body>
@@ -140,30 +139,20 @@
                 </li>
             </ul>
             <div class="cleaning-video">
-                <img src="./videos/videoPoster.png" alt="" class="video-poster">
-                <img src="./videos/play.png" alt="" class="video-play-btn" onclick="playVideo('./videos/videoplayback.mp4')">
-            </div>
-            <div class="video-player" id="video-player1">
-                <video controls width="100%">
-                    <source src="./videos/videoplayback.mp4" type="video/mp4" id="video-about-cleaning">
-                </video>
-                <img src="./videos/closeVideo.png" alt="" class="close-video-btn" onclick="stopVideo()">
+                <div class="video-poster">
+                    <img src="./videos/play.png" alt="" class="video-play-btn"
+                        onclick="playVideo('./videos/videoplayback.mp4')">
+                    <div class="video-player" id="video-player1">
+                        <video id="video-player-mp4" controls width="100%">
+                            <source src="./videos/videoplayback.mp4" type="video/mp4" id="video-about-cleaning">
+                        </video>
+                        <img src="./videos/closeVideo.png" alt="" class="close-video-btn" onclick="stopVideo()">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <script>
-        let video_player = document.getElementsById('video-player1');
-        let video_about_cleaning = document.getElementsById('video-about-cleaning');
-
-        function stopVideo(){
-            video_player.style.display = "none";
-        }
-
-        function playVideo(file){
-            video_about_cleaning.src = file;
-            video_player.style.display = "block";
-        }
-    </script>
+    <script src="main.js"></script>
 </body>
 
 </html>
