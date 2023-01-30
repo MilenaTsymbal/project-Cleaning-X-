@@ -135,7 +135,7 @@ body {
     font-weight: 400;
     font-size: 21px;
     line-height: 30px;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 a {
@@ -271,15 +271,15 @@ h1 {
     top: 15%; */
 }
 
-.about-service {
+.smaller-heading {
     display: flex;
     justify-content: center;
 }
 
-.how-works {
+.about-smaller-heading {
     text-align: justify;
     text-align: center;
-    width: 650px;
+    width: 700px;
     margin-bottom: 58px;
 }
 
@@ -294,7 +294,7 @@ h1 {
     margin-bottom: 57px;
 }
 
-.benefit-header {
+.title2 {
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
@@ -306,7 +306,7 @@ h1 {
     width: 412px;
 } */
 
-.how-works-title {
+.title1 {
     margin-bottom: 20px;
 }
 
@@ -329,5 +329,62 @@ h1 {
     color: #211F54;
     margin-right: 28px;
     font-size: 17px;
+    cursor: pointer;
+}
+
+.results-of-work {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.results-title {
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+.results-margin {
+    margin-right: 97.5px;
+}
+
+.results-img-margin {
+    margin-right: 16.5px;
+}
+
+.cleaning-video {
+    display: flex;
+    justify-content: center;
+}
+
+.video-poster {
+    opacity: 0.5;
+}
+
+.video-play-btn {
+    position: absolute;
+    left: 50%;
+    top: 380%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.video-player {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 480%;
+    transform: translate(-50%, -50%);
+    /* display: none; */
+}
+
+.close-video-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
 }

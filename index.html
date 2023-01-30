@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- <script src="main.js"></script> -->
 </head>
 
 <body>
@@ -65,27 +66,27 @@
     </section>
     <section class="service">
         <div class="container">
-            <div class="about-service">
-                <div class="how-works">
-                    <h2 class="how-works-title">How our service works?</h2>
-                    <p>Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque
-                        nisi felis non ultrices massa id egestas quam velit pretium nu.</p>
+            <div class="smaller-heading">
+                <div class="about-smaller-heading">
+                    <h2 class="title1">How our service works?</h2>
+                    <p>Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque nisi felis non ultrices
+                        massa id egestas quam velit pretium nu.</p>
                 </div>
             </div>
             <div class="benefits">
                 <div class="schedule">
                     <img src="./images/onlineShedule.png" alt="" class="benefits-img">
-                    <p class="benefit-header">1. Schedule online</p>
+                    <p class="title2">1. Schedule online</p>
                     <p>Sagittis nibh scelerisque vitae egetolment vulputate sem elementum sed n.</p>
                 </div>
                 <div class="online-pay">
                     <img src="./images/payOnline.png" alt="" class="benefits-img">
-                    <p class="benefit-header">2. Pay online easily</p>
+                    <p class="title2">2. Pay online easily</p>
                     <p>Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet at nunc.</p>
                 </div>
                 <div class="house-cleaned">
                     <img src="./images/getCleaned.png" alt="" class="benefits-img">
-                    <p class="benefit-header">3. Get your house cleaned</p>
+                    <p class="title2">3. Get your house cleaned</p>
                     <p>Nunc maecenas sollicitudin metus tellus mattis sed porttitor cursus eleifend.</p>
                 </div>
             </div>
@@ -100,6 +101,69 @@
         </div>
 
     </section>
+    <section>
+        <div class="container">
+            <div class="smaller-heading">
+                <div class="about-smaller-heading">
+                    <h2 class="title1">Our cleaning services have no comparison</h2>
+                    <p>Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue massa mauris
+                        lectus vitae cras viverra gravida sapien.</p>
+                </div>
+            </div>
+            <ul class="results-of-work">
+                <li class="results-img-margin">
+                    <img src="./images/clients.png" alt="">
+                </li>
+                <li class="results-margin">
+                    <div class="results-in-numbers">
+                        <p class="results-title">clients</p>
+                        <p class="title2">3,480+</p>
+                    </div>
+                </li>
+                <li class="results-img-margin">
+                    <img src="./images/jobsDone.png" alt="">
+                </li>
+                <li class="results-margin">
+                    <div class="results-in-numbers">
+                        <p class="results-title">jobs done</p>
+                        <p class="title2">12,540+</p>
+                    </div>
+                </li>
+                <li class="results-img-margin">
+                    <img src="./images/employees.png" alt="">
+                </li>
+                <li class="results-margin">
+                    <div class="results-in-numbers">
+                        <p class="results-title">employees</p>
+                        <p class="title2">100+</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="cleaning-video">
+                <img src="./videos/videoPoster.png" alt="" class="video-poster">
+                <img src="./videos/play.png" alt="" class="video-play-btn" onclick="playVideo('./videos/videoplayback.mp4')">
+            </div>
+            <div class="video-player" id="video-player1">
+                <video controls width="100%">
+                    <source src="./videos/videoplayback.mp4" type="video/mp4" id="video-about-cleaning">
+                </video>
+                <img src="./videos/closeVideo.png" alt="" class="close-video-btn" onclick="stopVideo()">
+            </div>
+        </div>
+    </section>
+    <script>
+        let video_player = document.getElementsById('video-player1');
+        let video_about_cleaning = document.getElementsById('video-about-cleaning');
+
+        function stopVideo(){
+            video_player.style.display = "none";
+        }
+
+        function playVideo(file){
+            video_about_cleaning.src = file;
+            video_player.style.display = "block";
+        }
+    </script>
 </body>
 
 </html>
