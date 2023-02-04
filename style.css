@@ -359,37 +359,37 @@ h1 {
     width: 1012px;
     height: 570px;
     display: flex;
-   justify-content: center;
-     margin: 0 auto;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .video-poster {
     width: 1012px;
     height: 570px;
-    background: url('./videos/videoPoster.png'); 
+    background: url('./videos/videoPoster.png');
     position: relative;
-   opacity: .5;
+    opacity: .5;
 }
 
 .video-play-btn {
     position: absolute;
-     top: 50%;
-     left: 50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
 
 .video-player {
-     display: none;
+    display: none;
     position: absolute;
-     top: 50%;
-     left: 50%;
-     width: 100%;
-     height: 100%;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
     transform: translate(-50%, -50%);
 }
 
-#video-player-mp4{
+#video-player-mp4 {
     border-radius: 30px;
 }
 
@@ -399,5 +399,118 @@ h1 {
     top: 10px;
     width: 30px;
     height: 30px;
+    cursor: pointer;
+}
+
+.divider {
+    height: 1px;
+    background: #DCDDEB;
+}
+
+.look-at-professional-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+.explore-services-second {
+    width: 174px;
+    height: 54px;
+    background: #EFF0F6;
+    border: none;
+    border-radius: 14px;
+    color: #211F54;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.places-for-services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.professional-services-title {
+    width: 475px;
+}
+
+.house-cleaning,
+.office-cleaning {
+    margin-right: 28px;
+}
+
+.house-cleaning,
+.industrial-cleaning {
+    height: 494px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 83px;
+    box-sizing: border-box;
+}
+
+.office-cleaning {
+    height: 494px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 49px;
+    box-sizing: border-box;
+}
+
+.follow-guidelines {
+    background: #211F54;
+    border-radius: 24px;
+    height: 676px;
+    display: flex;
+}
+
+.follow-guidelines-info {
+    margin-left: 72px;
+}
+
+.covid-sanitization {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+    padding-top: 137px;
+}
+
+.follow-guidelines-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    width: 491px;
+    margin-bottom: 18px;
+}
+
+.follow-guidelines-text {
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 491px;
+    margin-bottom: 12px;
+}
+
+.callUs-second {
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.phone-number-second {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
     cursor: pointer;
 }
