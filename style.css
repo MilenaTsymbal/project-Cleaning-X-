@@ -514,3 +514,164 @@ h1 {
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.cover-all-areas {
+    display: flex;
+}
+
+.cover-all-areas-info {
+    margin-left: 80px;
+    width: 496px;
+}
+
+h4 {
+    margin-bottom: 19px;
+}
+
+.cover-all-areas-text {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.cleaned-places {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.cleaned-places-together {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Roboto';
+    margin-bottom: 27px;
+    margin-right: 78px;
+}
+
+.cleaned-places-text {
+    color: #211F54;
+}
+
+.what-makes-us-different {
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-makes-us-different-info {
+    width: 496px;
+}
+
+h5 {
+    margin-bottom: 19px;
+}
+
+.what-makes-us-different-text1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.what-makes-us-different-text2 {
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.results-of-work-in-numbers ul {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.results-of-work-in-numbers ul li {
+    margin-right: 58px;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+    color: #211F54;
+}
+
+span {
+    font-size: 54px;
+    line-height: 66px;
+    color: #0075FF;
+
+}
+
+.number-of-what {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.articles-and-rosourses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.articles-and-rosourses-info {
+    width: 450px;
+}
+
+h6 {
+    margin-bottom: 9px;
+}
+
+.articles-btn {
+    margin-right: 0;
+}
+
+.examples-of-articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    width: 600px;
+    position: relative;
+}
+
+.article-info {
+    width: 440px;
+    height: 230px;
+    background-color: #fff;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+    border-radius: 24px;
+    padding: 50px;
+    position: absolute;
+    left: 25px;
+    top: 306px;
+}
+
+.article-info p{
+    margin-bottom: 10px;
+}
+
+.article-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #211F54;
+    margin-bottom: 17px;
+}
+
+.date-of-publication {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-of-publication p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #211F54;
+}
+
+.date-of-publication img {
+    cursor: pointer;
+}
