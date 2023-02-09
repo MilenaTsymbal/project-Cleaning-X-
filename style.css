@@ -140,6 +140,7 @@ body {
 
 a {
     all: unset;
+    cursor: pointer;
 }
 
 p {
@@ -606,6 +607,10 @@ span {
     line-height: 24px;
 }
 
+.articles {
+    margin-bottom: 530px;
+}
+
 .articles-and-rosourses {
     display: flex;
     justify-content: space-between;
@@ -648,7 +653,7 @@ h6 {
     top: 306px;
 }
 
-.article-info p{
+.article-info p {
     margin-bottom: 10px;
 }
 
@@ -674,4 +679,213 @@ h6 {
 
 .date-of-publication img {
     cursor: pointer;
+}
+
+.profile {
+    background: #F7F9FC;
+    padding-top: 240px;
+}
+
+.request-a-free-cleaning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.request-a-free-cleaning-info {
+    width: 485px;
+}
+
+.request-a-free-cleaning-text {
+    margin-bottom: 18px;
+}
+
+.separator {
+    background: #DCDDEB;
+    height: 1px;
+    margin-top: 51px;
+    margin-bottom: 55px;
+}
+
+.browse-our-packages-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #211F54;
+    width: 257px;
+    height: 73px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.questionnaire {
+    height: 800px;
+    width: 570px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+    border-radius: 16px;
+    padding: 85px 50px;
+}
+
+.data-about-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #211F54;
+    margin-bottom: 12px;
+}
+
+.user-info-input {
+    width: 259px;
+    height: 72px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+/* .info {
+    margin-right: 33px;
+} */
+
+.add-a-note-input {
+    width: 570px;
+    height: 144px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 2px 7px rgba(20, 20, 43, 0.08);
+    border-radius: 22px;
+    margin-bottom: 82px;
+}
+
+.submit-message-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 257px;
+    height: 73px;
+    background: #0075FF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-container {
+    margin-bottom: 0;
+    padding-bottom: 240px;
+}
+
+.footer-container {
+    margin: 157px auto 118px auto;
+    max-width: 1270px;
+    padding: 0 15px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quality-cleaning-for-your-home {
+    width: 304px;
+}
+
+.rectangles img {
+    margin-right: 16px;
+    margin-top: 34px;
+}
+
+.contact-us {
+    width: 260px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #211F54;
+    margin-bottom: 34px;
+}
+
+.contact-us-info {
+    margin-bottom: 16px;
+}
+
+.hours {
+    width: 160px;
+}
+
+.days-of-week {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #211F54;
+    margin-bottom: 8px;
+}
+
+.time {
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+
+.get-a-free-estimate {
+    width: 294px;
+}
+
+.get-a-free-estimate p {
+    margin-bottom: 16px;
+}
+
+.telephone-number {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #0075FF;
+}
+
+.authorities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.authorities-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.authorities-links a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #0075FF;
+}
+
+.authorities-links p {
+    font-size: 18px;
+}
+
+.authorities-container {
+    margin: 30px auto;
+    max-width: 1270px;
+    padding: 0 15px;
 }

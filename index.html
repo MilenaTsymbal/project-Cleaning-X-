@@ -21,11 +21,11 @@
                         <img src="./images/logo.svg" alt="" class="logo-title">
                     </div>
                     <ul class="header-menu-list">
-                        <li class="header-menu-item">Home</li>
-                        <li class="header-menu-item">About</li>
-                        <li class="header-menu-item">Services</li>
-                        <li class="header-menu-item">Pages</li>
-                        <li class="header-menu-item">Contact</li>
+                        <li class="header-menu-item"><a href="#">Home</a></li>
+                        <li class="header-menu-item"><a href="#">About</a></li>
+                        <li class="header-menu-item"><a href="#">Services</a></li>
+                        <li class="header-menu-item"><a href="#">Pages</a></li>
+                        <li class="header-menu-item"><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="get-free-quote">
@@ -305,46 +305,170 @@
     </section>
     <section>
         <div class="container">
-            <div class="articles-and-rosourses">
-                <div class="articles-and-rosourses-info">
-                    <h6>Articles & resources</h6>
-                    <p>Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue massa mauris lectus.</p>
+            <div class="articles">
+                <div class="articles-and-rosourses">
+                    <div class="articles-and-rosourses-info">
+                        <h6>Articles & resources</h6>
+                        <p>Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue massa
+                            mauris lectus.</p>
+                    </div>
+                    <div class="articles-and-rosourses-btn">
+                        <button class="get-free-quote-btn">
+                            Get a free quote
+                        </button>
+                        <button class="explore-services articles-btn">
+                            Explore services
+                        </button>
+                    </div>
                 </div>
-                <div class="articles-and-rosourses-btn">
-                    <button class="get-free-quote-btn">
-                        Get a free quote
-                    </button>
-                    <button class="explore-services articles-btn">
-                        Explore services
-                    </button>
-                </div>
-            </div>
-            <div class="examples-of-articles">
-                <div class="article">
-                    <img src="./images/vacuumCleaner.png" alt="">
-                    <div class="article-info">
-                        <p class="article-title">8 best vacuum cleaners to clean any mess for your home in 2022</p>
-                        <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor sit males.</p>
-                        <div class="date-of-publication">
-                            <p>Jan 28, 2022</p>
-                            <img src="./images/rectangle.png" alt="">
+                <div class="examples-of-articles">
+                    <div class="article">
+                        <img src="./images/vacuumCleaner.png" alt="">
+                        <div class="article-info">
+                            <p class="article-title">8 best vacuum cleaners to clean any mess for your home in 2022</p>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port
+                                titor sit males.</p>
+                            <div class="date-of-publication">
+                                <p>Jan 28, 2022</p>
+                                <img src="./images/rectangle.png" alt="">
+                            </div>
                         </div>
-                    </div> 
-                </div>
-                <div class="article">
-                    <img src="./images/girlCleaning.png" alt="">
-                    <div class="article-info">
-                        <p class="article-title">How to properly disinfect your phone and other electronics</p>
-                        <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port titor sit males.</p>
-                        <div class="date-of-publication">
-                            <p>Feb 1, 2022</p>
-                            <img src="./images/rectangle.png" alt="">
+                    </div>
+                    <div class="article">
+                        <img src="./images/girlCleaning.png" alt="">
+                        <div class="article-info">
+                            <p class="article-title">How to properly disinfect your phone and other electronics</p>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo quis odio sit sit ac port
+                                titor sit males.</p>
+                            <div class="date-of-publication">
+                                <p>Feb 1, 2022</p>
+                                <img src="./images/rectangle.png" alt="">
+                            </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="profile">
+        <div class="container profile-container">
+            <div class="request-a-free-cleaning">
+                <div class="request-a-free-cleaning-info">
+                    <h6>Request a free cleaning quote today</h6>
+                    <p class="request-a-free-cleaning-text">In dignissim euismod pretium amet enim a eu nam ut urna
+                        accumsan
+                        pellentesque lacus duis pharetra eutortor.</p>
+                    <div class="contacts">
+                        <img src="./images/phone.png" alt="" class="phone-img">
+                        <div class="telephone">
+                            <p class="callUs">Call us now</p>
+                            <a href="tel:(414) 567 - 2109" class="phone-number">(414) 567 - 2109</a>
+                        </div>
+                    </div>
+                    <div class="separator"></div>
+                    <p class="title2">Not convinced yet?</p>
+                    <p>Massa bibendum consectetur maurisid gravida purus, dolor dui amet morbi non nunc urna purus diam.
+                    </p>
+                    <button class="browse-our-packages-btn">
+                        Browse our packages
+                    </button>
+                </div>
+                <div class="questionnaire">
+                    <div class="data-about-user">
+                        <div class="info">
+                            <p class="user-info">Full name</p>
+                            <input required type="text" class="user-info-input">
+                        </div>
+                        <div>
+                            <p class="user-info">Phone number</p>
+                            <input required type="tel" class="user-info-input">
+                        </div>
+                    </div>
+                    <div class="data-about-user">
+                        <div class="info">
+                            <p class="user-info">Address</p>
+                            <input required type="text" class="user-info-input">
+                        </div>
+                        <div>
+                            <p class="user-info">Email</p>
+                            <input required type="email" class="user-info-input">
+                        </div>
+                    </div>
+                    <div class="data-about-user">
+                        <div class="info">
+                            <p class="user-info">Requested service</p>
+                            <input required type="text" class="user-info-input">
+                        </div>
+                        <div>
+                            <p class="user-info">Day of service</p>
+                            <input required type="text" class="user-info-input">
+                        </div>
+                    </div>
+                    <p class="user-info">Add a note</p>
+                    <input type="text" class="add-a-note-input">
+                    <button class="submit-message-btn">
+                        Submit message
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <div class="quality-cleaning-for-your-home">
+                    <p class="title2">Quality cleaning for your home</p>
+                    <p>Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do eiusmo.</p>
+                    <div class="rectangles">
+                        <img src="./images/rectangleFooter.png" alt="">
+                        <img src="./images/rectangleFooter.png" alt="">
+                        <img src="./images/rectangleFooter.png" alt="">
+                        <img src="./images/rectangleFooter.png" alt="">
+                        <img src="./images/rectangleFooter.png" alt="">
+                    </div>
+                </div>
+                <div class="contact-us">
+                    <p class="footer-title">Contact us</p>
+                    <p class="contact-us-info">1827 Nickel Road, Los Angeles, CA, 90017, United States</p>
+                    <p class="contact-us-info">(414) 567 - 2109</p>
+                    <p class="contact-us-info">contact@cleaning.com</p>
+                </div>
+                <div class="hours">
+                    <p class="footer-title">Hours</p>
+                    <p class="days-of-week">Monday to Friday</p>
+                    <p class="time">6:00 AM - 9:00 PM</p>
+                    <p class="days-of-week">Saturday & Sunday</p>
+                    <p class="time">8:00 AM - 8:00 PM</p>
+                </div>
+                <div class="get-a-free-estimate">
+                    <p class="footer-title">Get a free estimate</p>
+                    <p class="telephone-number">(414) 567 - 2109</p>
+                    <p>Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do eiusmod.</p>
+                    <button class="submit-message-btn">
+                        Request a free quote
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="containe">
+        <div class="divider"></div>
+    </div>
+    <footer>
+        <div class="authorities-container">
+            <div class="authorities">
+                <img src="./images/logo.svg" alt="">
+                <div class="authorities-links">
+                    <p>Copyright © Cleaning X | Designed by </p>
+                    <a href="#"> BRIX Templates</a>
+                    <p>- Powered by </p>
+                    <a href="#"> Webflow</a>
+                    <p> - </p>
+                    <a href="#"> Licenses</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="main.js"></script>
 </body>
 
